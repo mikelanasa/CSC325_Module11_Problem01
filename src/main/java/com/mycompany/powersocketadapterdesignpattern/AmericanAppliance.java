@@ -8,6 +8,10 @@ package com.mycompany.powersocketadapterdesignpattern;
  * Class to hold the American appliance
  * @author mikel
  */
-public class AmericanAppliance {
-    
+public class AmericanAppliance implements AmericanPowerPlug{
+    // Override method from AmericanPowerPlug
+    @Override
+    public void sendPower() {
+        System.out.println("This is an American appliance.\nNot designed for European sockets.");
+    }
 } // ends class

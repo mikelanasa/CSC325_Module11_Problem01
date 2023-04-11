@@ -9,5 +9,6 @@ package com.mycompany.powersocketadapterdesignpattern;
  * @author mikel
  */
 public interface AmericanPowerPlug {
+    // abstract method
     public void sendPower();
 } // ends class
