@@ -12,6 +12,6 @@ public class AmericanAppliance implements AmericanPowerPlug{
     // Override method from AmericanPowerPlug
     @Override
     public void sendPower() {
-        System.out.println("This is an American appliance.\nNot designed for European sockets.");
+        System.out.println("This is an American appliance.\nPower is being recieved.");
     }
 } // ends class
