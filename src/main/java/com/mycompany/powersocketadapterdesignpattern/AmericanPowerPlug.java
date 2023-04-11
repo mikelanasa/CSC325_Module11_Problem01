@@ -5,9 +5,9 @@
 package com.mycompany.powersocketadapterdesignpattern;
 
 /**
- *
+ * Class to hold the American power plug
  * @author mikel
  */
 public interface AmericanPowerPlug {
-    
-}
+    public void sendPower();
+} // ends class

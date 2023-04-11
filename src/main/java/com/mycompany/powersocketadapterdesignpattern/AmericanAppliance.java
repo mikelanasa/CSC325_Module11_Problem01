@@ -5,9 +5,9 @@
 package com.mycompany.powersocketadapterdesignpattern;
 
 /**
- *
+ * Class to hold the American appliance
  * @author mikel
  */
 public class AmericanAppliance {
     
-}
+} // ends class

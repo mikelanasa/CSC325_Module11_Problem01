@@ -5,9 +5,11 @@
 package com.mycompany.powersocketadapterdesignpattern;
 
 /**
- *
+ * Class to hold the European power socket
  * @author mikel
  */
 public class EuropeanPowerSocket {
-    
-}
+    public void plugInAppliance(EuropeanPowerPlug plug) {
+        plug.supplyPower();
+    }
+} // ends class

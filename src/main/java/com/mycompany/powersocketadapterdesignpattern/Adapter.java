@@ -10,4 +10,4 @@ package com.mycompany.powersocketadapterdesignpattern;
  */
 public class Adapter {
     
-}
+} // ends class
